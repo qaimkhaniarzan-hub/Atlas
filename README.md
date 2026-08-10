@@ -1,6 +1,6 @@
 # Atlas Cargo Airplane
 
-Atlas is a custom scratch-built radio-controlled (RC) cargo airplane designed using foamboard, a twin-motor setup, and modular electronic systems. This repository contains the complete Bill of Materials (BOM), design files, electrical layout, and step-by-step build documentation.
+Atlas is a custom scratch-built radio-controlled (RC) cargo airplane designed using foamboard, a twin-motor setup, and modular electronic systems. This repository contains the complete Bill of Materials (BOM), 3D design models, 2D printable templates, electrical layouts, and step-by-step build documentation.
 
 <!-- INSERT IMAGE 1 HERE: Place a hero photo of the fully assembled plane or a 3D CAD render of the airframe here -->
 
@@ -18,9 +18,9 @@ Since I was young, I've always loved airplanes! Over the last couple of years, I
 
 🟢 **Project Scoping & Design:** Defined payload goals, twin-motor configuration, and channel requirements.  
 🟢 **Bill of Materials (BOM):** Selected all 20 hardware items, tools, and electronics within the $600 USD budget ceiling.  
-🟢 **Repository Setup:** Created GitHub project structure, documentation, and CSV tracking files.  
+🟢 **Repository & CAD Modeling:** Created GitHub project structure and completed full 3D airframe blockout in Blender.  
 🔴 **Verification & Funding:** Finalizing verification approval to secure project grant funds.  
-🔴 **Templates & CAD:** Generating 1:1 scale printable 2D foamboard templates.  
+🔴 **Templates & Printing:** Generating 1:1 scale printable 2D foamboard templates.  
 🔴 **Airframe Build:** Cutting foamboard and assembling the fuselage, wing spar, and control surfaces.  
 🔴 **Electronics & Maiden Flight:** Installing power system, servos, camera, and completing first test flight.  
 
@@ -67,33 +67,51 @@ The full component list and budget breakdown are tracked below.
 | MicroSD Card | 1 | 89.00 | $24.03 |
 | **TOTAL** | **20 Items** | **SAR 2,154.50** | **$581.72** |
 
-*Note: Component links are available in the repository's `BOM.csv` file.*
+*Note: Direct purchase links are available in the repository's `BOM.csv` file.*
 
 ---
 
-## Build Breakdown & Layout
+## Step-by-Step Construction Guide
 
-### 1. Airframe Construction
-The airframe is built from cut foamboard templates reinforced with bamboo skewers along high-stress spars and the fuselage keel. 
+### Phase 1: Preparation & Workspace Setup
+1. **Prepare Workspace:** Clear a flat workbench, plug in your hot glue gun, and gather your craft knife, cutting mat, steel ruler, and soldering iron kit.
+2. **Print & Assemble Plans:** Open the exported 2D template PDF files in Adobe Acrobat Reader, select **Print > Poster** (Tile Scale: 100%), print across A4 sheets, align the grid marks, tape them together, and cut out the paper shapes.
 
-<!-- INSERT IMAGE 2 HERE: Place a photo of your printed 2D templates taped together or foam pieces cut out on the workbench -->
+### Phase 2: Cutting & Prepping Foamboard
+1. **Trace Patterns:** Lay the paper templates onto your 5mm foamboard sheets and lightly trace outlines with a pencil.
+2. **Mark Cut Types:** 
+   * **Solid Lines:** Full cuts through foam and paper.
+   * **Score Cuts:** Partial cuts through top paper layer only for folding.
+   * **Bevel Lines:** 45° angle scrapes for control surface hinges and wing edges.
+3. **Cut Components:** Use a fresh craft knife blade held at a low angle along a steel ruler to make crisp cuts without tearing the foam.
 
-### 2. Avionics & Wiring Layout
-Control surfaces are actuated by 9g servos connected via steel pushrods and clevises. The FlySky iA10B receiver manages flight controls, retractable gear, and the parachute release servo.
+### Phase 3: Airframe Assembly
+1. **Build Fuselage Box:** Score-cut fuselage fold lines, run hot glue down the internal joints, fold the sides upward to form the box cargo fuselage, and reinforce the inner bottom keel with a bamboo skewer.
+2. **Construct Wing & Spar:** Glue a double-layered foamboard main spar (reinforced with a bamboo skewer) at the 30% wing chord line, fold the top foam skin over, and glue down the trailing edge. Slide the wing through the fuselage center cutout and glue securely.
+3. **Attach Tail Assembly:** Glue the horizontal and vertical stabilizers onto the rear tail boom, ensuring they are perfectly square (90°) to the wing plane.
 
-<!-- INSERT IMAGE 3 HERE: Place an electrical wiring diagram or top-down photo showing ESC, receiver, and servo wiring inside the fuselage -->
+<!-- INSERT IMAGE 2 HERE: Place a photo of your cut foamboard templates or assembled fuselage structure -->
 
-### 3. Onboard Recording
-Flight footage is captured onboard via an SQ11 1080p mini action camera mounted in the nose section, recording directly to a high-speed MicroSD card.
+### Phase 4: Electronics & Propulsion Installation
+1. **Solder Harnesses:** Solder bullet connectors between motors and ESCs, and solder both ESC power leads in parallel to a single battery connector.
+2. **Mount Hardware:** Secure the twin motor nacelles onto the wings, and install the 3 retractable landing gear bases onto reinforced mounting plates under the wings and nose.
+3. **Control Linkages:** Install 9g servos into their pre-cut pockets, mount control horns onto the control surfaces, and connect pushrods with clevises set to neutral positions.
 
-<!-- INSERT IMAGE 4 HERE: Place a close-up photo of the camera mount or landing gear mechanism -->
+<!-- INSERT IMAGE 3 HERE: Place a photo showing internal electronics, receiver wiring, or motor nacelle mounting -->
+
+### Phase 5: Final Setup & Pre-Flight Check
+1. **Receiver & Camera Setup:** Connect all 10 channels to the FlySky iA10B receiver and mount the SQ11 action camera in the nose section.
+2. **Center of Gravity (CG) Balancing:** Place the 3S LiPo battery in the nose bay, support the aircraft on your fingers at the 25%–30% wing chord mark (along the main spar), and adjust battery placement until the plane balances perfectly level.
+3. **Pre-Flight Test:** Power on the transmitter first, connect the flight battery, and verify that all control surfaces move in the correct directions relative to stick inputs.
+
+<!-- INSERT IMAGE 4 HERE: Place a photo of the camera nose mount or close-up of the landing gear mechanism -->
 
 ---
 
 ## Repository Structure
 
 ```text
-├── README.md             # Project documentation
+├── README.md             # Complete project documentation and guide
 ├── BOM.csv               # Complete Bill of Materials with purchase links
 ├── plans/                # Printable 2D template files (PDF / DXF)
 └── media/                # Build photos, schematics, and flight footage
