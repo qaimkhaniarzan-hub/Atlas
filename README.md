@@ -1,8 +1,9 @@
+
 # Atlas Cargo Airplane
 
 Atlas is a custom scratch-built radio-controlled (RC) cargo airplane designed using foamboard, a twin-motor setup, and modular electronic systems. This repository contains the complete Bill of Materials (BOM), 3D design models, 2D printable templates, electrical layouts, and step-by-step build documentation.
 
-![3D Model Render](media/3d%20model%20image)
+<img width="1365" height="768" alt="gaga" src="https://github.com/user-attachments/assets/c4483255-7ae2-4acf-ad6e-42f3077bd0d8" />
 
 > **Project Goal:** Build a reliable, high-payload foamboard cargo plane under a strict budget ceiling of $600 USD (SAR 2,250).
 
