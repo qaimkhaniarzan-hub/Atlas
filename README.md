@@ -45,7 +45,7 @@ The full component list and budget breakdown are tracked below.
 
 | Item Name | Quantity | Price (SAR) | Price (USD) |
 | :--- | :--- | :--- | :--- |
-| Foam Board | 10 Sheets | 360.00 | $97.20 |
+| Foam Board | 4 Sheets | 360.00 | $37.20 |
 | Skewer | 100 Pc | 4.50 | $1.22 |
 | Steel Pushrods | 10 | 98.00 | $26.46 |
 | Control Horns / Clevises | 20 Pc | 57.00 | $15.39 |
@@ -57,7 +57,6 @@ The full component list and budget breakdown are tracked below.
 | Landing Gear Base | 3 | 57.00 | $15.39 |
 | Wheels Pack | 1 | 78.00 | $21.06 |
 | Servo Extension Cables | 1 Pack | 59.00 | $15.93 |
-| Parachute | 1 | 97.00 | $26.19 |
 | Glue Gun + Sticks | 1 | 49.00 | $13.23 |
 | Craft Knife | 1 | 45.00 | $12.15 |
 | Soldering Iron Kit | 1 | 106.00 | $28.62 |
@@ -65,7 +64,7 @@ The full component list and budget breakdown are tracked below.
 | Hobby Tape | 1 | 28.00 | $7.56 |
 | SQ11 Mini Camera | 1 | 42.00 | $11.34 |
 | MicroSD Card | 1 | 89.00 | $24.03 |
-| **TOTAL** | **20 Items** | **SAR 2,154.50** | **$581.72** |
+| **TOTAL** | **20 Items** | **SAR 1,847** | **$496** |
 
 *Note: Direct purchase links are available in the repository's `BOM.csv` file.*
 
